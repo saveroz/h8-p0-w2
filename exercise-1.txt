@@ -1,0 +1,79 @@
+1. Algoritma:
+   1. simpan nilai massa benda dengan 600kg.
+   2. simpan nilai percepatan dengan 2m/s2.
+   3. Kalikan kedua nilai tersebut untuk mendapatkan resultan gaya.
+   4. simpan nilai resultan gaya yang didapat dari perkalian diatas. 
+
+   Pseudocode:
+   STORE M equal to 600kg
+   STORE a equal to 2
+   STORE F equal to any number
+   SET F to multiply M*a
+   DISPLAY F
+
+2. Algoritma:
+   1. simpan nilai tahun.
+   2. apabila tahun tersebut habis dibagi 4 dan tidak habis dibagi 100.
+      atau habis dibagi 4, habis dibagi 100 dan habis dibagi 400.
+   3. apabila memenuhi kondisi diatas maka jenistahun tersebut adalah
+      tahun kabisat.
+   4. apabila tidak memenuhi kondisi tersebut maka jenis tahun tersebut adalah bukan tahun kabisat.
+
+   Pseudocode:
+   STORE Year equal to any number
+   STORE typeYear equal to any string
+
+   IF (Year%4=0 AND Year%100!=0) OR (Year%4=0 AND Year%100=0 AND YEAR%400=0)   
+   	SET typeYear to 'Kabisat'
+   ELSE 
+   	SET typeYear to 'Not Kabisat'
+   ENDIF
+
+   DISPLAY typeYear
+
+3. Algoritma:
+   1. simpan nilai jumlah pakaian dengan nilai 20.
+   2. simpan nilai pakaian di mesin cuci dengan nilai 0
+   2. masukkan pakaian ke mesin cuci.
+   3. setiap pakaian yang dimasukkan ke mesin cuci 
+      akan membuat nilai pakaian di mesin cuci bertambah satu.
+   4. Ulangi proses 2 dan 3 sampai jumlah nilai pakaian di mesin cuci
+      sama dengan nilai jumlah pakaian.
+   5. Maka mesin cuci makan menyala.
+
+   Pseudocode:
+   STORE NumPakaian equal to 20
+   STORE mesinCuci equal to 0
+   STORE ConMesinCuci equal to any string
+
+   FOR mesinCuci=0 TO numPakaian
+   	INCREMENT mesinCuci
+        DISPLAY mesinCuci
+        ENDFOR
+
+   IF mesinCuci equal to numPakaian THEN
+	SET ConMesinCuci equal to 'ON'
+        ENDIF
+
+4. Algoritma:
+   1. simpan A menjadi 0 (jumlah siswa yang telah diperiksa kukunya oleh guru).
+   2. simpan B dengan 40 (jumlah siswa di kelas). 
+   3. Guru memeriksa kuku siswanya satu persatu. 
+   4. setiap kali guru memeriksa kuku siswanya maka nilai A bertambah  satu.
+   5. Apabila kuku siswa panjang maka guru akan menghukum siswa tersebut, apabila tidak maka guru akan memuji siswa tersebut.
+   6. Lakukan proses 3-5 berulang kali hingga jumlah A sama dengan B. 
+   
+   STORE A to 0
+   STORE B equal to 40
+ 
+   FOR A=0 to B:
+       IF student has long nail THEN 
+             student gets punishment by teacher
+       ELSE  
+             student gets praised by teacher
+       ENDIF
+       INCREMENT A 
+   ENDFOR
+	
+	 
+
