@@ -34,7 +34,7 @@ var asterisk='';
 
 for (i=0; i<rows3; i++){
     
-    for (var j=0;j<1;j++){
+    for (j=0;j<1;j++){
         asterisk+='*';
     }
     console.log(asterisk);
