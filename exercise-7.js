@@ -33,6 +33,9 @@ var rows3=5;
 var asterisk='';
 
 for (i=0; i<rows3; i++){
-    asterisk+='*';
+    
+    for (var j=0;j<1;j++){
+        asterisk+='*';
+    }
     console.log(asterisk);
 }
